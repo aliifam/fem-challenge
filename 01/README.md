@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-<div style="text-align: center">
+<div align="center">
 
 ![dekstop](./img/dekstop.png)
 preview in dekstop
@@ -43,11 +43,13 @@ preview in dekstop when share is clicked
 <br>
 
 ![mobile](./img/mobile.png)
+<br>
 preview in mobile
 
 <br>
 
 ![mobile active](./img/mobile-active.png)
+<br>
 preview in mobile when share is clicked
 
 </div>
