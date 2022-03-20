@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+}
+
+.card {
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    width: 720px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 20px 20px 50px lightgray;
+}
+
+.card-title {
+    color: hsl(217, 19%, 35%);
+    font-family: 'Manrope', sans-serif;
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card-article {
+    color: hsl(214, 17%, 51%);
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+}
+
+.card-image {
+    width: 40%;
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
+}
+
+.card-main {
+    padding: 30px 40px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.profile {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.profile-meta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avatar-name {
+    font-size: 13px;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+}
+
+.date{
+    font-size: 13px;
+    color: hsl(212, 23%, 69%);
+}
+
+.share-button {
+    background: hsl(210, 46%, 95%);
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.popshare {
+    display: none;
+    position: absolute;
+    right: -22%;
+    top: -150%;
+    padding: 0px 20px;
+    border-radius: 8px;
+    width: 150px;
+    background: hsl(217, 19%, 35%);
+    color: hsl(212, 23%, 69%);
+    align-items: center;
+    justify-content: space-between;
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+}
+
+.popshare::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  hsl(217, 19%, 35%) transparent transparent transparent;
+}
+
+.sosmed {
+    display: flex;
+}
+
+.sosmed svg {
+    margin: 7px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        height: 100vh;
+    }
+
+    .card {
+        flex-direction: column;
+        width: 320px;
+        margin: 50% 0;
+    }
+
+    .card-main {
+        padding: 35px 30px 25px;
+    }
+
+    .card-image {
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .popshare {
+        position: absolute;
+        right: -12%;
+        top: 2%;
+        padding: 5px 20px;
+        border-radius: 0 0 15px 15px;
+        width: 108%;
+    }
+
+    .popshare::after {
+        display: none;
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+     }
+     100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+     }
+  }
+  
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes fadeOutDown {
+    0% {
+       opacity: 1;
+       -webkit-transform: translateY(0);
+    }
+    100% {
+       opacity: 0;
+       -webkit-transform: translateY(20px);
+    }
+ }
+ 
+ @keyframes fadeOutDown {
+    0% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+    100% {
+       opacity: 0;
+       transform: translateY(20px);
+    }
+ }
+
+/*
+- Very Dark Grayish Blue: hsl(217, 19%, 35%)
+- Desaturated Dark Blue: hsl(214, 17%, 51%)
+- Grayish Blue: hsl(212, 23%, 69%)
+- Light Grayish Blue: hsl(210, 46%, 95%)
+*/
