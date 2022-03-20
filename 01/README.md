@@ -80,8 +80,9 @@ After this I will learning how to be a Backend Developer.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for CSS positioning
-- [Example resource 2](https://www.example.com) - This helped me for CSS animation.
+- [W3school](https://w3schools.com/) - This helped me for CSS positioning
+- [Tutorials Point](https://tutorialspoint.com/) - This helped me for CSS animation.
+- [codepen](https://codepen.io/) - This helped me for layout inspiration.
 
 ## Author
 
