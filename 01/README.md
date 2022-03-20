@@ -30,14 +30,27 @@ Users should be able to:
 
 ### Screenshot
 
+<div style="text-align: center">
+
 ![dekstop](./img/dekstop.png)
 preview in dekstop
+
+<br>
+
 ![dekstop active](./img/dekstop-active.png)
 preview in dekstop when share is clicked
+
+<br>
+
 ![mobile](./img/mobile.png)
 preview in mobile
+
+<br>
+
 ![mobile active](./img/mobile-active.png)
 preview in mobile when share is clicked
+
+</div>
 
 ### Links
 
